@@ -1,0 +1,12 @@
+
+{
+    "name": "IPMI OBM settings for DellServer nodes",
+    "discoveryGraphName": "Graph.DefaultDellServer.InstallCoreOS",
+    "discoveryGraphOptions": {},
+    "rules": [
+        {
+            "path": "dmi.System Information.Manufacturer",
+            "contains": "Dell"
+        }
+    ]
+}
