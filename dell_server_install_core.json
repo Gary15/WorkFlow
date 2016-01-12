@@ -1,0 +1,26 @@
+{
+    "friendlyName": "Dell Server Install CoreOS",
+    "injectableName": "Graph.DefaultDellServer.InstallCoreOS",
+    "tasks": [
+        {
+            "label": "create-impi-obm-settings",
+            "taskDefinition": {
+                "friendlyName": "Create Dell Server OBM settings",
+                "injectableName": "Task.Obm.Ipmi.CreateSettings",
+                "implementsTask": "Task.Base.Obm.Ipmi.CreateSettings",
+                "options": {
+                    "impichanel": "lan",
+                    "user": "root",
+                    "password":"root"
+                },
+                "properties": {
+
+                }
+            }
+        },
+        {
+            "label": "install-coreos",
+            "taskName": "Task.Os.Install.CoreOS"
+        }
+    ]
+}
