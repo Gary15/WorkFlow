@@ -5,9 +5,12 @@
         "defaults": {
             "obmServiceName": "ipmi-obm-service"
         },
-        "install-os": {
+       "install-os": {
+            "version":"7.0",
             "repo": "{{api.server}}/Centos/7.0",
-            "rootPassword": "root"
+            "rootPassword": "root",
+            "hostname":"RackHDClient",
+            "domain":"rackhd.com"
         }
     }
 }
