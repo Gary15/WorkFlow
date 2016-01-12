@@ -1,0 +1,13 @@
+
+{
+    "name": "Graph.InstallCentOS",
+    "options": {
+        "defaults": {
+            "obmServiceName": "ipmi-obm-service"
+        },
+        "install-os": {
+            "repo": "{{api.server}}/Centos/7.0",
+            "rootPassword": "root"
+        }
+    }
+}
