@@ -1,0 +1,368 @@
+
+S 2016-01-22T03:28:46.458Z [on-http] [Http.Server] [Server] http: DELETE 200 29.099 - /api/1.1/nodes/56a19c62218fb2334920aed2/workflows/active
+ -> /lib/services/http-service.js:113
+ipAddress: 10.0.2.2
+N 2016-01-22T03:28:46.667Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       24
+S 2016-01-22T03:28:46.678Z [on-http] [Http.Server] [Server] http: GET 200 48.849 - /api/1.1/nodes/56a19c62218fb2334920aed2/workflows
+ -> /lib/services/http-service.js:113
+ipAddress: 10.0.2.2
+N 2016-01-22T03:28:53.086Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       10
+S 2016-01-22T03:28:54.079Z [on-http] [Http.Server] [Server] http: POST 201 120.138 - /api/1.1/nodes/56a19c62218fb2334920aed2/workflows
+ -> /lib/services/http-service.js:113
+ipAddress: 10.0.2.2
+N 2016-01-22T03:28:54.309Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       10
+N 2016-01-22T03:28:55.344Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       18
+N 2016-01-22T03:28:56.872Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       17
+N 2016-01-22T03:28:57.001Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       29
+N 2016-01-22T03:28:57.240Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       30
+N 2016-01-22T03:28:57.870Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       15
+N 2016-01-22T03:28:59.925Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       14
+N 2016-01-22T03:29:05.499Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       16
+N 2016-01-22T03:29:06.055Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       40
+N 2016-01-22T03:29:07.284Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       13
+N 2016-01-22T03:29:07.909Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       24
+N 2016-01-22T03:29:11.185Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       12
+N 2016-01-22T03:29:11.711Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       17
+N 2016-01-22T03:29:11.822Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       10
+S 2016-01-22T03:29:20.081Z [on-http] [Http.Server] [20aed2] http: GET 200 11.510 - /api/common/profiles
+ -> /lib/services/http-service.js:113
+ipAddress: 172.31.128.20
+S 2016-01-22T03:29:21.288Z [on-http] [Http.Server] [20aed2] http: GET 200 57.204 - /api/common/profiles?macs=08%3A00%3A27%3A17%3Ada%3A95
+ -> /lib/services/http-service.js:113
+ipAddress: 172.31.128.20
+S 2016-01-22T03:29:22.702Z [on-http] [Http.Server] [20aed2] http: GET 200 261.878 - /Centos/7.0/images/pxeboot/vmlinuz
+ -> /lib/services/http-service.js:113
+ipAddress: 172.31.128.20
+S 2016-01-22T03:29:23.098Z [on-http] [Http.Server] [20aed2] http: GET 200 379.756 - /Centos/7.0/images/pxeboot/initrd.img
+ -> /lib/services/http-service.js:113
+ipAddress: 172.31.128.20
+N 2016-01-22T03:29:37.355Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       12
+E 2016-01-22T03:29:38.387Z [on-http] [common-api-presenter] [Server] ejs:15
+    13|   bootloader --location=mbr --driveorder=<%=driveId%> --append="crashkernel=auth rhgb"
+    14| <% } else { %>
+ >> 15|   bootloader --location=mbr --driveorder=<%=driveId%> --boot-drive=<%=driveId%> --append="crashkernel=auth rhgb"
+    16| <% } %>
+    17| services --enabled=NetworkManager,sshd
+    18| network --device=<%=macaddress%> --noipv6 --activate
+
+driveId is not defined
+ -> /lib/services/common-api-presenter.js:197
+error: 
+  stack: 
+    - ReferenceError: ejs:15
+    -     13|   bootloader --location=mbr --driveorder=<%=driveId%> --append="crashkernel=auth rhgb"
+    -     14| <% } else { %>
+    -  >> 15|   bootloader --location=mbr --driveorder=<%=driveId%> --boot-drive=<%=driveId%> --append="crashkernel=auth rhgb"
+    -     16| <% } %>
+    -     17| services --enabled=NetworkManager,sshd
+    -     18| network --device=<%=macaddress%> --noipv6 --activate
+    - 
+    - driveId is not defined
+    -     at eval (eval at <anonymous> (/home/vagrant/src/on-http/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:22:23)
+    -     at returnedFn (/home/vagrant/src/on-http/node_modules/ejs/lib/ejs.js:493:17)
+    -     at Object.exports.render (/home/vagrant/src/on-http/node_modules/ejs/lib/ejs.js:315:37)
+    -     at /home/vagrant/src/on-http/lib/services/common-api-presenter.js:242:34
+    -     at tryCatcher (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/util.js:26:23)
+    -     at Promise._settlePromiseFromHandler (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/promise.js:505:31)
+    -     at Promise._settlePromiseAt (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/promise.js:581:18)
+    -     at Promise._settlePromises (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/promise.js:697:14)
+    -     at Async._drainQueue (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/async.js:123:16)
+    -     at Async._drainQueues (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/async.js:133:10)
+    -     at Async.drainQueues (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/async.js:15:14)
+    -     at process._tickDomainCallback (node.js:459:13)
+  arguments: 
+    - driveId
+  type:      not_defined
+  message: 
+    """
+      ejs:15
+          13|   bootloader --location=mbr --driveorder=<%=driveId%> --append="crashkernel=auth rhgb"
+          14| <% } else { %>
+       >> 15|   bootloader --location=mbr --driveorder=<%=driveId%> --boot-drive=<%=driveId%> --append="crashkernel=auth rhgb"
+          16| <% } %>
+          17| services --enabled=NetworkManager,sshd
+          18| network --device=<%=macaddress%> --noipv6 --activate
+      
+      driveId is not defined
+    """
+path:  /templates/centos-ks
+S 2016-01-22T03:29:38.481Z [on-http] [Http.Server] [20aed2] http: GET 500 42.513 - /api/common/templates/centos-ks
+ -> /lib/services/http-service.js:113
+ipAddress: 172.31.128.20
+E 2016-01-22T03:29:39.444Z [on-http] [common-api-presenter] [Server] ejs:15
+    13|   bootloader --location=mbr --driveorder=<%=driveId%> --append="crashkernel=auth rhgb"
+    14| <% } else { %>
+ >> 15|   bootloader --location=mbr --driveorder=<%=driveId%> --boot-drive=<%=driveId%> --append="crashkernel=auth rhgb"
+    16| <% } %>
+    17| services --enabled=NetworkManager,sshd
+    18| network --device=<%=macaddress%> --noipv6 --activate
+
+driveId is not defined
+ -> /lib/services/common-api-presenter.js:197
+error: 
+  stack: 
+    - ReferenceError: ejs:15
+    -     13|   bootloader --location=mbr --driveorder=<%=driveId%> --append="crashkernel=auth rhgb"
+    -     14| <% } else { %>
+    -  >> 15|   bootloader --location=mbr --driveorder=<%=driveId%> --boot-drive=<%=driveId%> --append="crashkernel=auth rhgb"
+    -     16| <% } %>
+    -     17| services --enabled=NetworkManager,sshd
+    -     18| network --device=<%=macaddress%> --noipv6 --activate
+    - 
+    - driveId is not defined
+    -     at eval (eval at <anonymous> (/home/vagrant/src/on-http/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:22:23)
+    -     at returnedFn (/home/vagrant/src/on-http/node_modules/ejs/lib/ejs.js:493:17)
+    -     at Object.exports.render (/home/vagrant/src/on-http/node_modules/ejs/lib/ejs.js:315:37)
+    -     at /home/vagrant/src/on-http/lib/services/common-api-presenter.js:242:34
+    -     at tryCatcher (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/util.js:26:23)
+    -     at Promise._settlePromiseFromHandler (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/promise.js:505:31)
+    -     at Promise._settlePromiseAt (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/promise.js:581:18)
+    -     at Promise._settlePromises (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/promise.js:697:14)
+    -     at Async._drainQueue (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/async.js:123:16)
+    -     at Async._drainQueues (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/async.js:133:10)
+    -     at Async.drainQueues (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/async.js:15:14)
+    -     at process._tickDomainCallback (node.js:459:13)
+  arguments: 
+    - driveId
+  type:      not_defined
+  message: 
+    """
+      ejs:15
+          13|   bootloader --location=mbr --driveorder=<%=driveId%> --append="crashkernel=auth rhgb"
+          14| <% } else { %>
+       >> 15|   bootloader --location=mbr --driveorder=<%=driveId%> --boot-drive=<%=driveId%> --append="crashkernel=auth rhgb"
+          16| <% } %>
+          17| services --enabled=NetworkManager,sshd
+          18| network --device=<%=macaddress%> --noipv6 --activate
+      
+      driveId is not defined
+    """
+path:  /templates/centos-ks
+S 2016-01-22T03:29:39.455Z [on-http] [Http.Server] [20aed2] http: GET 500 46.928 - /api/common/templates/centos-ks
+ -> /lib/services/http-service.js:113
+ipAddress: 172.31.128.20
+E 2016-01-22T03:29:41.491Z [on-http] [common-api-presenter] [Server] ejs:15
+    13|   bootloader --location=mbr --driveorder=<%=driveId%> --append="crashkernel=auth rhgb"
+    14| <% } else { %>
+ >> 15|   bootloader --location=mbr --driveorder=<%=driveId%> --boot-drive=<%=driveId%> --append="crashkernel=auth rhgb"
+    16| <% } %>
+    17| services --enabled=NetworkManager,sshd
+    18| network --device=<%=macaddress%> --noipv6 --activate
+
+driveId is not defined
+ -> /lib/services/common-api-presenter.js:197
+error: 
+  stack: 
+    - ReferenceError: ejs:15
+    -     13|   bootloader --location=mbr --driveorder=<%=driveId%> --append="crashkernel=auth rhgb"
+    -     14| <% } else { %>
+    -  >> 15|   bootloader --location=mbr --driveorder=<%=driveId%> --boot-drive=<%=driveId%> --append="crashkernel=auth rhgb"
+    -     16| <% } %>
+    -     17| services --enabled=NetworkManager,sshd
+    -     18| network --device=<%=macaddress%> --noipv6 --activate
+    - 
+    - driveId is not defined
+    -     at eval (eval at <anonymous> (/home/vagrant/src/on-http/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:22:23)
+    -     at returnedFn (/home/vagrant/src/on-http/node_modules/ejs/lib/ejs.js:493:17)
+    -     at Object.exports.render (/home/vagrant/src/on-http/node_modules/ejs/lib/ejs.js:315:37)
+    -     at /home/vagrant/src/on-http/lib/services/common-api-presenter.js:242:34
+    -     at tryCatcher (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/util.js:26:23)
+    -     at Promise._settlePromiseFromHandler (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/promise.js:505:31)
+    -     at Promise._settlePromiseAt (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/promise.js:581:18)
+    -     at Promise._settlePromises (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/promise.js:697:14)
+    -     at Async._drainQueue (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/async.js:123:16)
+    -     at Async._drainQueues (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/async.js:133:10)
+    -     at Async.drainQueues (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/async.js:15:14)
+    -     at process._tickDomainCallback (node.js:459:13)
+  arguments: 
+    - driveId
+  type:      not_defined
+  message: 
+    """
+      ejs:15
+          13|   bootloader --location=mbr --driveorder=<%=driveId%> --append="crashkernel=auth rhgb"
+          14| <% } else { %>
+       >> 15|   bootloader --location=mbr --driveorder=<%=driveId%> --boot-drive=<%=driveId%> --append="crashkernel=auth rhgb"
+          16| <% } %>
+          17| services --enabled=NetworkManager,sshd
+          18| network --device=<%=macaddress%> --noipv6 --activate
+      
+      driveId is not defined
+    """
+path:  /templates/centos-ks
+S 2016-01-22T03:29:41.502Z [on-http] [Http.Server] [20aed2] http: GET 500 40.529 - /api/common/templates/centos-ks
+ -> /lib/services/http-service.js:113
+ipAddress: 172.31.128.20
+N 2016-01-22T03:29:44.322Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       16
+N 2016-01-22T03:29:44.534Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       12
+N 2016-01-22T03:29:44.753Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       17
+E 2016-01-22T03:29:45.546Z [on-http] [common-api-presenter] [Server] ejs:15
+    13|   bootloader --location=mbr --driveorder=<%=driveId%> --append="crashkernel=auth rhgb"
+    14| <% } else { %>
+ >> 15|   bootloader --location=mbr --driveorder=<%=driveId%> --boot-drive=<%=driveId%> --append="crashkernel=auth rhgb"
+    16| <% } %>
+    17| services --enabled=NetworkManager,sshd
+    18| network --device=<%=macaddress%> --noipv6 --activate
+
+driveId is not defined
+ -> /lib/services/common-api-presenter.js:197
+error: 
+  stack: 
+    - ReferenceError: ejs:15
+    -     13|   bootloader --location=mbr --driveorder=<%=driveId%> --append="crashkernel=auth rhgb"
+    -     14| <% } else { %>
+    -  >> 15|   bootloader --location=mbr --driveorder=<%=driveId%> --boot-drive=<%=driveId%> --append="crashkernel=auth rhgb"
+    -     16| <% } %>
+    -     17| services --enabled=NetworkManager,sshd
+    -     18| network --device=<%=macaddress%> --noipv6 --activate
+    - 
+    - driveId is not defined
+    -     at eval (eval at <anonymous> (/home/vagrant/src/on-http/node_modules/ejs/lib/ejs.js:464:12), <anonymous>:22:23)
+    -     at returnedFn (/home/vagrant/src/on-http/node_modules/ejs/lib/ejs.js:493:17)
+    -     at Object.exports.render (/home/vagrant/src/on-http/node_modules/ejs/lib/ejs.js:315:37)
+    -     at /home/vagrant/src/on-http/lib/services/common-api-presenter.js:242:34
+    -     at tryCatcher (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/util.js:26:23)
+    -     at Promise._settlePromiseFromHandler (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/promise.js:505:31)
+    -     at Promise._settlePromiseAt (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/promise.js:581:18)
+    -     at Promise._settlePromises (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/promise.js:697:14)
+    -     at Async._drainQueue (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/async.js:123:16)
+    -     at Async._drainQueues (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/async.js:133:10)
+    -     at Async.drainQueues (/home/vagrant/src/on-http/node_modules/on-core/node_modules/bluebird/js/main/async.js:15:14)
+    -     at process._tickDomainCallback (node.js:459:13)
+  arguments: 
+    - driveId
+  type:      not_defined
+  message: 
+    """
+      ejs:15
+          13|   bootloader --location=mbr --driveorder=<%=driveId%> --append="crashkernel=auth rhgb"
+          14| <% } else { %>
+       >> 15|   bootloader --location=mbr --driveorder=<%=driveId%> --boot-drive=<%=driveId%> --append="crashkernel=auth rhgb"
+          16| <% } %>
+          17| services --enabled=NetworkManager,sshd
+          18| network --device=<%=macaddress%> --noipv6 --activate
+      
+      driveId is not defined
+    """
+path:  /templates/centos-ks
+S 2016-01-22T03:29:45.558Z [on-http] [Http.Server] [20aed2] http: GET 500 48.580 - /api/common/templates/centos-ks
+ -> /lib/services/http-service.js:113
+ipAddress: 172.31.128.20
+S 2016-01-22T03:29:45.620Z [on-http] [Http.Server] [20aed2] http: GET 404 1.708 - /Centos/7.0/.treeinfo
+ -> /lib/services/http-service.js:113
+ipAddress: 172.31.128.20
+N 2016-01-22T03:29:46.912Z [on-http] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-http
+severity: notice
+ms:       46
+S 2016-01-22T03:29:49.374Z [on-http] [Http.Server] [20aed2] http: GET 200 3708.045 - /Centos/7.0/LiveOS/squashfs.img
+ -> /lib/services/http-service.js:113
+ipAddress: 172.31.128.20
+S 2016-01-22T03:29:49.440Z [on-http] [Http.Server] [20aed2] http: GET 404 1.881 - /Centos/7.0/images/updates.img
+ -> /lib/services/http-service.js:113
+ipAddress: 172.31.128.20
+S 2016-01-22T03:29:49.482Z [on-http] [Http.Server] [20aed2] http: GET 404 1.969 - /Centos/7.0/images/product.img
+ -> /lib/services/http-service.js:113
+ipAddress: 172.31.128.20
