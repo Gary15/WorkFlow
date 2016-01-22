@@ -1,0 +1,170 @@
+I 2016-01-22T03:28:46.444Z [on-taskgraph] [Job.Os.Install] [Server] Cancelling job.
+ -> /node_modules/on-tasks/lib/jobs/base-job.js:131
+taskId: 8230b830-8eae-4543-9fa5-c2d8d3e45f5b
+name:   InstallOsJob
+error: 
+  message: Cancelled by taskgraph with state cancelled
+  name:    TaskCancellationError
+  context: 
+
+N 2016-01-22T03:28:46.470Z [on-taskgraph] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-taskgraph
+severity: notice
+ms:       27
+I 2016-01-22T03:28:46.482Z [on-taskgraph] [TaskGraph.Scheduler] [Server] evaluateWork
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:46.482Z [on-taskgraph] [TaskGraph.Scheduler] [Server] Work Queue Now Empty
+ -> /lib/scheduler.js:101
+D 2016-01-22T03:28:53.994Z [on-taskgraph] [TaskGraph.TaskGraph] [20aed2] Graph created
+ -> /lib/task-graph.js:77
+graphInstance: 9707eb1a-51bb-4348-b0c5-87b88b3e8f28
+graphName:     Install CentOS
+I 2016-01-22T03:28:54.034Z [on-taskgraph] [Task.Task] [Server] Starting task.
+ -> /node_modules/on-tasks/lib/task.js:364
+taskId: 98f12564-aade-462e-8b1c-55725e2a03ff
+name:   Set Node Pxeboot
+I 2016-01-22T03:28:54.042Z [on-taskgraph] [Task.Task] [Server] Starting task.
+ -> /node_modules/on-tasks/lib/task.js:364
+taskId: cf8dd7d6-d19d-45c4-87ee-c0d019918680
+name:   Reboot Node
+I 2016-01-22T03:28:54.050Z [on-taskgraph] [Task.Task] [Server] Starting task.
+ -> /node_modules/on-tasks/lib/task.js:364
+taskId: 2ec6bb5c-36d7-4b46-96c5-500607f67d0e
+name:   Install CentOS
+D 2016-01-22T03:28:54.052Z [on-taskgraph] [TaskGraph.TaskGraph] [Server] Scheduling task
+ -> /lib/task-graph.js:423
+graphInstance: 9707eb1a-51bb-4348-b0c5-87b88b3e8f28
+taskName:      Task.Obm.Node.PxeBoot
+taskInstance:  98f12564-aade-462e-8b1c-55725e2a03ff
+I 2016-01-22T03:28:54.083Z [on-taskgraph] [TaskGraph.Scheduler] [Server] workItemScheduled: 98f12564-aade-462e-8b1c-55725e2a03ff
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:54.084Z [on-taskgraph] [TaskGraph.Scheduler] [Server] evaluateWork
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:54.084Z [on-taskgraph] [TaskGraph.Scheduler] [Server] Run Task: 98f12564-aade-462e-8b1c-55725e2a03ff
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:54.109Z [on-taskgraph] [Task.Task] [Server] Running task job.
+ -> /node_modules/on-tasks/lib/task.js:262
+taskId: 98f12564-aade-462e-8b1c-55725e2a03ff
+name:   Set Node Pxeboot
+job:    Job.Obm.Node
+S 2016-01-22T03:28:54.122Z [on-taskgraph] [Job.Obm.Node] [20aed2] Running job.
+ -> /node_modules/on-tasks/lib/jobs/base-job.js:109
+module:  Job.Obm.Node
+name:    ObmControlJob
+options: 
+  action:         setBootPxe
+  obmServiceName: noop-obm-service
+taskId:  98f12564-aade-462e-8b1c-55725e2a03ff
+target:  56a19c62218fb2334920aed2
+I 2016-01-22T03:28:54.135Z [on-taskgraph] [Services.Configuration] [Server] Configuration Value Undefined, Using Default (obmInitialDelay => undefined).
+ -> /node_modules/on-core/lib/services/configuration.js:72
+I 2016-01-22T03:28:54.135Z [on-taskgraph] [Services.Configuration] [Server] Configuration Value Undefined, Using Default (obmRetries => undefined).
+ -> /node_modules/on-core/lib/services/configuration.js:72
+I 2016-01-22T03:28:54.138Z [on-taskgraph] [Task.Services.OBM] [20aed2] OBM command (setBootPxe) success. Type: noop-obm-service
+ -> /node_modules/on-tasks/lib/services/obm-service.js:198
+D 2016-01-22T03:28:54.151Z [on-taskgraph] [TaskGraph.TaskGraph] [Server] Scheduling task
+ -> /lib/task-graph.js:423
+graphInstance: 9707eb1a-51bb-4348-b0c5-87b88b3e8f28
+taskName:      Task.Obm.Node.Reboot
+taskInstance:  cf8dd7d6-d19d-45c4-87ee-c0d019918680
+I 2016-01-22T03:28:54.152Z [on-taskgraph] [TaskGraph.Scheduler] [Server] evaluateWork
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:54.152Z [on-taskgraph] [TaskGraph.Scheduler] [Server] Work Queue Now Empty
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:54.187Z [on-taskgraph] [TaskGraph.Scheduler] [Server] workItemScheduled: cf8dd7d6-d19d-45c4-87ee-c0d019918680
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:54.188Z [on-taskgraph] [TaskGraph.Scheduler] [Server] evaluateWork
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:54.188Z [on-taskgraph] [TaskGraph.Scheduler] [Server] Run Task: cf8dd7d6-d19d-45c4-87ee-c0d019918680
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:54.220Z [on-taskgraph] [Task.Task] [Server] Running task job.
+ -> /node_modules/on-tasks/lib/task.js:262
+taskId: cf8dd7d6-d19d-45c4-87ee-c0d019918680
+name:   Reboot Node
+job:    Job.Obm.Node
+S 2016-01-22T03:28:54.257Z [on-taskgraph] [Job.Obm.Node] [20aed2] Running job.
+ -> /node_modules/on-tasks/lib/jobs/base-job.js:109
+module:  Job.Obm.Node
+name:    ObmControlJob
+options: 
+  action:         reboot
+  obmServiceName: noop-obm-service
+taskId:  cf8dd7d6-d19d-45c4-87ee-c0d019918680
+target:  56a19c62218fb2334920aed2
+I 2016-01-22T03:28:54.279Z [on-taskgraph] [Services.Configuration] [Server] Configuration Value Undefined, Using Default (obmInitialDelay => undefined).
+ -> /node_modules/on-core/lib/services/configuration.js:72
+I 2016-01-22T03:28:54.279Z [on-taskgraph] [Services.Configuration] [Server] Configuration Value Undefined, Using Default (obmRetries => undefined).
+ -> /node_modules/on-core/lib/services/configuration.js:72
+S 2016-01-22T03:28:54.279Z [on-taskgraph] [Task.Services.OBM] [Server] Invoking wrapWithStatusCheck 56a19c62218fb2334920aed2 powerOff
+ -> /node_modules/on-tasks/lib/services/obm-service.js:260
+I 2016-01-22T03:28:54.290Z [on-taskgraph] [Task.Services.OBM] [20aed2] OBM command (powerStatus) success. Type: noop-obm-service
+ -> /node_modules/on-tasks/lib/services/obm-service.js:198
+I 2016-01-22T03:28:54.300Z [on-taskgraph] [Task.Services.OBM] [20aed2] OBM command (powerOff) success. Type: noop-obm-service
+ -> /node_modules/on-tasks/lib/services/obm-service.js:198
+I 2016-01-22T03:28:54.819Z [on-taskgraph] [Task.Services.OBM] [20aed2] Asserting power status is off. 
+ -> /node_modules/on-tasks/lib/services/obm-service.js:290
+I 2016-01-22T03:28:54.820Z [on-taskgraph] [Task.Services.OBM] [20aed2] OBM command (powerStatus) success. Type: noop-obm-service
+ -> /node_modules/on-tasks/lib/services/obm-service.js:198
+S 2016-01-22T03:28:54.825Z [on-taskgraph] [Task.Services.OBM] [Server] Invoking wrapWithStatusCheck 56a19c62218fb2334920aed2 powerOn
+ -> /node_modules/on-tasks/lib/services/obm-service.js:260
+I 2016-01-22T03:28:54.830Z [on-taskgraph] [Task.Services.OBM] [20aed2] OBM command (powerStatus) success. Type: noop-obm-service
+ -> /node_modules/on-tasks/lib/services/obm-service.js:198
+I 2016-01-22T03:28:54.836Z [on-taskgraph] [Task.Services.OBM] [20aed2] OBM command (powerOn) success. Type: noop-obm-service
+ -> /node_modules/on-tasks/lib/services/obm-service.js:198
+N 2016-01-22T03:28:54.842Z [on-taskgraph] [Services.ErrorPublisher] [Server] Event Loop Blocked
+ -> /node_modules/on-core/lib/services/error-publisher.js:93
+host:     rackhd-demo
+name:     on-taskgraph
+severity: notice
+ms:       61
+D 2016-01-22T03:28:54.852Z [on-taskgraph] [TaskGraph.TaskGraph] [Server] Scheduling task
+ -> /lib/task-graph.js:423
+graphInstance:      9707eb1a-51bb-4348-b0c5-87b88b3e8f28
+taskName:           Task.Os.Install.CentOS
+taskInstance:       2ec6bb5c-36d7-4b46-96c5-500607f67d0e
+schedulerOverrides: 
+  timeout: 3600000
+I 2016-01-22T03:28:54.853Z [on-taskgraph] [TaskGraph.Scheduler] [Server] evaluateWork
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:54.854Z [on-taskgraph] [TaskGraph.Scheduler] [Server] Work Queue Now Empty
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:54.887Z [on-taskgraph] [TaskGraph.Scheduler] [Server] workItemScheduled: 2ec6bb5c-36d7-4b46-96c5-500607f67d0e
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:54.888Z [on-taskgraph] [TaskGraph.Scheduler] [Server] evaluateWork
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:54.888Z [on-taskgraph] [TaskGraph.Scheduler] [Server] Run Task: 2ec6bb5c-36d7-4b46-96c5-500607f67d0e
+ -> /lib/scheduler.js:101
+I 2016-01-22T03:28:54.971Z [on-taskgraph] [Task.Task] [Server] Running task job.
+ -> /node_modules/on-tasks/lib/task.js:262
+taskId: 2ec6bb5c-36d7-4b46-96c5-500607f67d0e
+name:   Install CentOS
+job:    Job.Os.Install
+S 2016-01-22T03:28:54.996Z [on-taskgraph] [Job.Os.Install] [20aed2] Running job.
+ -> /node_modules/on-tasks/lib/jobs/base-job.js:109
+module:  Job.Os.Install
+name:    InstallOsJob
+options: 
+  rootEncryptedPassword: $6$HZTeipLQI73tng==$cISQE1awjbXhqrGb5MPo4aunZNxH/1DA98jnodz7gVMcxZLwqdS7pMVcGrUOQqWjIVLAi8s3KfF4fkjY3.1Cv/
+  repo:                  http://172.31.128.1:8080/Centos/7.0
+  domain:                rackhd.github.com
+  profile:               install-centos.ipxe
+  hostname:              localhost
+  schedulerOverrides: 
+    timeout: 3600000
+  osType:                linux
+  completionUri:         renasar-ansible.pub
+  comport:               ttyS0
+  networkDevices: 
+    (empty array)
+  dnsServers: 
+    (empty array)
+  users: 
+    (empty array)
+  rootPassword:          root
+  rootPlainPassword:     root
+  installDisk:           sda
+  version:               7.0
+taskId:  2ec6bb5c-36d7-4b46-96c5-500607f67d0e
+target:  56a19c62218fb2334920aed2
